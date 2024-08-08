@@ -1,5 +1,12 @@
+import React from 'react';
+import AboutMe from './components/AboutMe'; 
+
 function App() {
-  return <div>Your code here</div>;
+  return (
+    <div>
+      <AboutMe />
+    </div>
+  );
 }
 
 export default App;
